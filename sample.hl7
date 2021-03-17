@@ -1,4 +1,14 @@
-MSH|^~\&|COOL APP|FOOBAR INC|SOME APP|SOME FACILITY|20140113224532||ADT^A01^ADT_A01|12345|P|2.5.1|
-EVN|A01|20140113224544||
-PID|1||1||DOE^JOHN^Y^MR||19830920|M||C|19/8 Foobar st^^New York City|IL|(123)456 7890|(123)456 7890||S||1|987654321||
-PV1|1|I|0^1^2||||111^HOPKINS^DR^B|||||||ADM|A0|
+MSH|^~\&|DPS|UPD|OPL||20200811113257||ADT^A01|9625230|P|2.2|||AL|NE
+EVN|A08|20200811113257
+PID||27064716|202306451|2020366491|CAMP^SARAH||19500627000000|F|||Postweg 4^^Weilheim^^82362^D|08115003|07000-344006|||||||||||N
+NK1|1|CAMP^SARAH|EHEMANN|Postweg 4^^Weilheim^^82362^D|07000-344006
+NK1|2|Andrea||Postweg 4^^Weilheim^^82362^D
+PV1||I|INT^I001Z004^I001Z004-2^INT_MKG|P|202036649|||210732700^Baum^Max^^^Dr.  med.^D^72076^Tübingen^Osianderstr.
+218^HR^^Nephrologie^998989900^627406801|210732109^Pump^Patrick^^^^D^71034^Böblingen^Freiburger Allee  Main 113^FR^07001-280198^^Allgemeinmedizin^694906203^618042120|||||||||S|2020366491|K|K||||||||||||||||||964007|||||20200809145600|||||0|2020366491
+PV2|||0101
+DG1|1|ICD10_2020|N18.0^Niereninsuffizienz terminal^ICD10_2020^^^I10ext|Niereninsuffizienz terminal|20200810180134|POP
+DG1|2|ICD10_2020|T82.7^Shuntinfektion^ICD10_2020^^^I10ext|Infektion und Entzündungsreaktion durch andere Herz- und Gefäßgeräte, Implantate und Transplantate|20200811113254||||||||||1
+DG1|3|ICD10_2020|F70.1^Debilität mit deutlicher Verhaltensstörung^ICD10_2020^^B^I10ext|Debilität mit deutlicher Verhaltensstörung|20200811113248|AUF
+PR1|1|OPS301_2020|8-854.0|Hämodialyse intermittierend |20200810095200|OP
+PR1|2|OPS301_2020|5-394.6|Entfernen arteriovenöser Shunt zur Hämodialyse|20200810095200|OP
+IN1|1|J227423661|108077500|Techniker Krankenkasse|Bramfelder Str.140^^Hamburg^^22305^D|||1|TKK||||||R|CAMP^SARAH||19500627|Postweg 4^^Weilheim^^82362^D||||||||||20200809000000||||||8077500^^^5000

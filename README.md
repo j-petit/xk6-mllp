@@ -12,7 +12,7 @@ To build a `k6` binary with this extension, first ensure you have the prerequisi
 
 ```bash
 $ go get -u github.com/k6io/xk6/cmd/xk6
-$ xk6 build --with github.com/gjergjsheldija/xk6-mllp=. 
+$ xk6 build --with github.com/j-petit/xk6-mllp 
 $ ./k6 run --vus 60 --duration 1m test.js   
 ```
 
