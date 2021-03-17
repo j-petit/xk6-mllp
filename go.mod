@@ -1,4 +1,4 @@
-module github.com/gjergjsheldija/xk6-mllp
+module github.com/j-petit/xk6-mllp
 
 go 1.15
 

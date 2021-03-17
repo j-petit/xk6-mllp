@@ -10,6 +10,7 @@ import (
 	"net"
 	"os"
 	"time"
+  "crypto/tls"
 )
 
 type MLLP struct {
@@ -40,7 +41,7 @@ func (m *MLLP) Send(ctx context.Context, file string) error {
 
 //Send sends a file over MLLP
 func (m *MLLP) sendFile(ctx context.Context, file string) error {
-	conn, err := net.Dial("tcp", fmt.Sprintf("%s:%d", m.opts.Host, m.opts.Port))
+	conn, err := tls.Dial("tcp", fmt.Sprintf("%s:%d", m.opts.Host, m.opts.Port))
 	if err != nil {
 		fmt.Println(err)
 		return err
