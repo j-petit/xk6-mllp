@@ -7,7 +7,6 @@ import (
 	"github.com/loadimpact/k6/lib"
 	"github.com/loadimpact/k6/stats"
 	"io/ioutil"
-	"net"
 	"os"
 	"time"
   "crypto/tls"
@@ -41,7 +40,7 @@ func (m *MLLP) Send(ctx context.Context, file string) error {
 
 //Send sends a file over MLLP
 func (m *MLLP) sendFile(ctx context.Context, file string) error {
-	conn, err := tls.Dial("tcp", fmt.Sprintf("%s:%d", m.opts.Host, m.opts.Port))
+	conn, err := tls.Dial("tcp", fmt.Sprintf("%s:%d", m.opts.Host, m.opts.Port), nil)
 	if err != nil {
 		fmt.Println(err)
 		return err
